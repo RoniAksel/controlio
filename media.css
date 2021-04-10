@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+
+
+    .grid_container{
+        display: block;
+    }
+    
+    .container{
+        border: none;
+        border-radius: none;
+    }
+
+    .svgBg{
+        display: none;
+    }
+
+    .logIn{
+        margin: calc(var(--Space));
+    }
+
+    input[type="email"],
+    input[type="password"]{
+    width: 87%;
+
+
+  }
