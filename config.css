@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* html{
+    font-size: 6.25%;
+} */
+
+
+:root{
+    /* Main Colors */
+    --FC_main: rgb(29, 29, 29);
+    --FC_sec: rgb(70, 70, 70);
+    --FC_third: rgb(173, 173, 173);
+    --FC_fourth: rgb(226, 226, 226);
+    --FC_fifth: rgb(240, 240, 240);
+
+    --FC_purp: rgb(104,35,219);
+    --FC_lpurp: rgb(129, 51, 255);
+    --FC_dpurp: rgb(84, 29, 172);
+
+    --FC_white: #fff;
+
+    /* Fonts */
+    --FF_mainTxt: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --FF_headerTxt: 'Lora', serif;
+
+
+
+    /* Spacing */
+    --Space: 1rem;
+
+
+    /* Font-size */
+    --FS_reg: 1rem;
+
+
+    /*Font Weight*/
+    --FW_light: 200;
+    --FW_reg: 400;
+    --Fw_bold: 600; 
+    --Fw_black: 800; 
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

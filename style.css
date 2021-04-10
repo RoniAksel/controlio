@@ -1,0 +1,196 @@
+body{
+    font-family: var(--FF_mainTxt);
+    margin: 2em calc(var(--Space) * 2) 0 calc(var(--Space) * 2);
+    display: grid;
+    /* grid-template-rows: 10% 60% 30%; */
+    /* height: 100vh; */
+}
+
+h1,h2,h3{
+    font-family: var(--FF_headerTxt);
+    color: var(--FC_main);
+}
+
+h1{
+    font-size: calc(var(--FS_reg) * 2);
+}
+
+/* Login Page */
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1.25fr 2fr;
+}
+
+.container{
+    border: 1px solid var(--FC_fourth);
+    border-radius: 15px;
+    /* grid-row: 2; */
+}
+
+/* .logIn{
+    grid-column-start: 2;
+} */
+
+.center{
+    align-items: center;
+}
+
+.logIn{
+    margin: calc(var(--Space)*1) calc(var(--Space)*2);
+}
+.logIn h1{
+    margin-bottom: calc(var(--Space)*1);
+}
+
+.logIn h4{
+    margin-bottom: calc(var(--Space)*2);
+}
+
+.logIn div label{
+    color: var(--FC_sec);
+    display: block;
+    margin-bottom: calc(var(--Space)*0.8);
+}
+
+.block{
+    display: block;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: calc(var(--Space)*0.8);
+    height: calc(var(--Space)*2);
+    border: 1px solid var(--FC_fourth);
+    border-radius: 4px;
+    margin-bottom: calc(var(--Space)*2);
+    transition: 
+    border 0.3s ease
+    ;
+
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: none !important;
+    border: 1px solid var(--FC_purp);
+    transition: 
+    border 0.3s ease
+    ;
+
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.svgBg{
+    background-color: #F9F6FD;
+    border-radius: 0 15px 15px 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_center{
+    justify-content: center;
+}
+
+.flex_SpaceB_Abase-line{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.regTxt{
+    font-size: calc(var(--FS_reg)*0.95);
+    font-weight: var(--Fw_bold);
+}
+
+.sHeadTxt{
+    font-size: calc(var(--FS_reg)*1.1);
+    font-weight: var(--Fw_bold);
+}
+.s_Pad{
+    padding: calc(var(--Space)*1);
+}
+
+.gray_F{
+    color: var(--FC_sec);
+}
+
+.vGray_F{
+    color: var(--FC_third);
+}
+
+.purp_F{
+    color:var(--FC_purp)
+}
+
+.fw_black{
+    font-weight: var(--Fw_black);
+}
+.fw_light{
+    font-weight: var(--FW_light) !important;
+}
+
+.btnFull{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 4px;
+    padding: calc(var(--Space)*1);
+    background-color: var(--FC_purp);
+    color: var(--FC_white);
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    margin-bottom: calc(var(--Space)*1);
+}
+
+.btnFull:hover{
+    background-color: var(--FC_dpurp);
+    transition: background-color 0.5s ease;
+}
+
+.btnLight{
+    border: 1px solid var(--FC_fourth);
+    text-decoration: none;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 4px;
+    padding: calc(var(--Space)*1);
+    background-color: var(--FC_white);
+    color: var(--FC_sec);
+    font-weight: 600;
+    margin-bottom: calc(var(--Space)*1);
+    transition: background-color 0.2s ease;
+}
+
+.btnLight:hover{
+    background-color: var(--FC_fifth);
+    transition: background-color 0.5s ease;
+}
+
+.btnsBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnsBlock a{
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+}
+
+.btnsBlock a:hover{
+    color: var(--FC_dpurp);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.top div img{
+    width: calc(var(--Space)*20);
+}

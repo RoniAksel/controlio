@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="config.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced To-Do App </title>
+</head>
+<body class="">
+<main class="grid_container container top">
+    <div class="logIn">
+        <h1>Log in.</h1>
+        <h4 class="vGray_F regTxt fw_light">log in with your data that you entered during your registration</h4>
+        <div>
+            <label class="regTxt" for="email">Enter your email address</label>
+            <input type="email" placeholder="name@example.com">
+
+            <label class="regTxt" for="password">Enter your password</label>
+            <input type="password" placeholder="atleast 8 digits">
+            <div class="btnsBlock">
+                <button class="block btnFull" type="submit">Log in</button>
+                <button class="block btnLight">Register Here</button>
+                <a class="regTxt purp_F " href="#">Forgot your password?</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="svgBg">
+        <div class="top">
+            <h2 class="txtCenter gray_F sHeadTxt">Nice to see you again</h2>
+            <h1 class="txtCenter purp_F">Welcome to toDo</h1>
+            <div class="flex flex_center">
+                <!-- <img src="./img/Wavy_Gen-01_Single-12.svg"> -->
+                <img src="https://i.pinimg.com/originals/45/af/00/45af00c2d6a3786243b77e057f18fe45.png" alt="">
+            </div>
+        </div>
+    </div>
+</main>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+
+<script src="src/firebase.js"></script>
+<script src="src/app.js"></script>
+
+</body>
+</html>
