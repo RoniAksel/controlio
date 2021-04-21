@@ -9,24 +9,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced To-Do App </title>
 </head>
-<body>
+<body class="margin_0 gBack">
     <nav class="flex flex_SpaceB_Abase-line">
-        <h1>todo</h1>
-        <div class="userNav flex flex_SpaceB_Abase-line">
-            <h4 class="regTxt s_Pad gray_F">Welcome {User}</h4>
+        <h1 class="margin_0">Controlio</h1>
+        <div class="userNav flex flex_SpaceB_Abase-line margin_0">
+            <h4 id="userName" class="regTxt s_Pad gray_F margin_0"></h4>
             <i class="fas fa-cog regTxt gray_F"></i>
         </div>
     </nav>
 
-    <main>
+    <main class="grid grid_2_col">
         <aside>
-            <h2>Current Lists</h2>
+            <div>
+                <h4>Current Lists</h4>
+                <ul>
+                    <li>List One</li>
+                    <li>List Two</li>
+                </ul>
+            </div>
+
+        </aside>
+
+        <div class="todos">
+            <h4>Current Todos</h4>
             <ul>
                 <li>List One</li>
                 <li>List Two</li>
             </ul>
-        </aside>
+        </div>
     </main>
+
+    
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
